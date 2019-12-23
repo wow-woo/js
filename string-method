@@ -1,0 +1,141 @@
+***
+string method
+
+
+1)
+split() method
+
+split string to array
+
+argument에 "" 를 넣으면 각각으로 다 끈는다.
+argument에 " "로 빈공간 하나 넣으면 whitespace가 있을 떄 끊는다.
+
+
+
+- split( separator, number )
+ number까지는 전부 짤라서 버린다.
+
+
+
+
+
+2)
+.repeat() method
+
+.repeat( num )
+
+
+num만큼 string을 반복
+
+
+
+3)
+.slice() method
+
+str.slice(beginIndex[, endIndex])
+
+
+잘라 내려는 시작 지점과 끝나는 지점 설정해 버리고, 나머지를 반환
+
+
+
+
+4)
+.toUpperCase() method
+
+string을 대문자로 반환
+
+
+
+
+
+5)
+.toLowerCase() method
+
+string을 소문자로 반환
+
+
+
+
+6)
+.trim() method
+
+" " string의 양쪽 끝의 공백을 제거한 것을 반환
+
+
+
+
+7)
+.include() method
+
+str.includes(searchString[, searchstartpoint)
+              
+
+string안에서 찾을 내용, 찾기 시작할 인덱스 숫자.
+
+
+
+
+8)
+.match() method
+
+str.match(regexp)
+string에서 regexp로 매치되는 것을 -> array 반환
+
+
+문자열이 정규식과 일치하면, 일치하는 전체 문자열을 첫 번째 요소로 포함하는 Array를 반환
+
+
+
+
+
+9)
+.search() method
+
+str.search(regexp)
+
+
+정규표현식과 주어진 스트링간에 첫번째로 매치되는 index를 반환,
+찾지 못하면 -1 를 반환
+
+
+
+
+
+10)
+.replace()
+
+var newStr = str.replace(regexp|substr, newSubstr|function)
+                                 찾고자 하는 것,    새롭게 넣고 싶은 것
+
+
+return 
+어떤 패턴에 일치하는 일부 또는 모든 부분이 교체된 새로운 문자열 반환
+
+
+
+11)
+.substring() method
+
+str.substring(indexStart[, indexEnd])
+                 시작 인덱스,   끝 인덱스
+
+
+범위 안에 있는 string을 반환
+
+
+!
+.substr() 사용 (x) 대체하기를 권고
+!
+
+
+
+
+12)
+.concat() method
+
+str.concat(string2, string3[, ..., stringN])
+
+string에 뒤에 추가로 붙인 new새로운 문자열 반환
+
+
